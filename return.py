@@ -3,7 +3,8 @@
 def saludar_sin(nombre: str):
     print(f"Hola sin return, {nombre} tipo: {type(nombre)}")
 
-saludar_sin("Ana")
+mensaje0=saludar_sin("Ana")
+print (f"Mensaje sin return: {mensaje0} tipo: {type(mensaje0)}")
 
 def saludar_con(nombre: str):
     return f"Hola con return, {nombre} tipo: {type(nombre)}"
@@ -17,7 +18,8 @@ print(mensaje)
 def sumar_sin(a: int, b: int):
     print(f"Resultado sin return: {a + b} tipo: {type(a + b)}")
 
-sumar_sin(5, 3)
+sumar1=sumar_sin(5, 3)
+print(f"Resultado sin return: {sumar1} tipo: {type(sumar1)}")
 
 def sumar_con(a: int, b: int):
     return a + b
@@ -32,7 +34,8 @@ print(f"Resultado con return: {numeros} tipo: {type(numeros)}")
 def doble_sin(numero: int):
     print(f"Resultado sin return: {numero * 2} tipo: {type(numero * 2)}")
 
-doble_sin(10)
+doble1=doble_sin(10)
+print(f"Resultado sin return: {doble1} tipo: {type(doble1)}")
 
 def doble_con(numero: int):
     return numero * 2
